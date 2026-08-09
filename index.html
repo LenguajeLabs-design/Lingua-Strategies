@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Practical, research-informed guidance for teachers of multilingual learners." />
+  <title>Lingua Strategies — Know what to try tomorrow</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Lingua Strategies home"><span class="brand-mark"><img src="assets/lingua-logo.png" alt="" width="40" height="40" /></span><span>Lingua Strategies</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#strategies" data-en="Strategies" data-zh="教学策略">Strategies</a><a href="#field-guide" data-en="Field guide" data-zh="成长指南">Field guide</a><a href="#about" data-en="About" data-zh="关于">About</a>
+    </nav>
+    <div class="header-actions"><div class="language-switch" role="group" aria-label="Language"><button type="button" data-locale="en" class="active">EN</button><button type="button" data-locale="zh">中文</button></div><button class="saved-button" id="savedButton" type="button" aria-label="Show saved strategies"><span id="savedLabel">Saved</span> <span id="savedCount">0</span></button></div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="eyebrow" data-en="The multilingual teaching field guide" data-zh="多语言学习者教学指南">The multilingual teaching field guide</div>
+        <h1 data-en="Know what to do&lt;br&gt;&lt;em&gt;tomorrow.&lt;/em&gt;" data-zh="明天的课堂，&lt;br&gt;&lt;em&gt;从容有方法。&lt;/em&gt;">Know what to do<br><em>tomorrow.</em></h1>
+        <p data-en="Practical, research-informed guidance for teachers of multilingual learners. Start with the classroom moment in front of you." data-zh="为多语言学习者教师提供实用、基于研究的教学建议。从眼前真实的课堂情境出发。">Practical, research-informed guidance for teachers of multilingual learners. Start with the classroom moment in front of you.</p>
+        <a class="primary-button" href="#needs"><span data-en="Find what to try tomorrow" data-zh="找到明天就能尝试的方法">Find what to try tomorrow</span> <span aria-hidden="true">↓</span></a>
+        <div class="trust-line"><span data-en="52 practical moves" data-zh="52 个实用策略">52 practical moves</span><span data-en="Built for busy teachers" data-zh="为忙碌的教师设计">Built for busy teachers</span><span data-en="No sign-up needed" data-zh="无需注册">No sign-up needed</span></div>
+      </div>
+      <div class="hero-credit" aria-hidden="true">Start here. This will help.</div>
+    </section>
+
+    <section class="needs-section" id="needs">
+      <div class="section-heading">
+        <div><span class="kicker" data-en="Start with the moment" data-zh="从真实情境开始">Start with the moment</span><h2 data-en="What are you trying to do?" data-zh="你现在想解决什么问题？">What are you trying to do?</h2></div>
+        <p data-en="Choose the classroom challenge that feels most urgent. We’ll show you a small move you can make next." data-zh="选择眼下最需要解决的课堂问题，我们会推荐一个可以马上采取的小行动。">Choose the classroom challenge that feels most urgent. We’ll show you a small move you can make next.</p>
+      </div>
+      <div class="needs-grid" id="needsGrid"></div>
+    </section>
+
+    <section class="tomorrow-banner" aria-label="New teacher starting point">
+      <div><span class="kicker" data-en="New to EAL?" data-zh="刚开始从事 EAL 教学？">New to EAL?</span><h2 data-en="You don’t need to know everything today." data-zh="你不需要今天就掌握一切。">You don’t need to know everything today.</h2><p data-en="Begin with three high-impact routines you can use in almost any lesson." data-zh="先从三个几乎适用于任何课堂的高效常规开始。">Begin with three high-impact routines you can use in almost any lesson.</p></div>
+      <button class="light-button" id="starterButton" type="button"><span data-en="Show me where to start" data-zh="告诉我从哪里开始">Show me where to start</span> <span>→</span></button>
+    </section>
+
+    <section class="library-section" id="strategies">
+      <div class="section-heading library-heading">
+        <div><span class="kicker" data-en="Practical toolbox" data-zh="实用工具箱">Practical toolbox</span><h2 data-en="Strategy library" data-zh="教学策略库">Strategy library</h2></div>
+        <p id="resultSummary">Explore all 52 classroom-tested moves.</p>
+      </div>
+      <div class="search-row">
+        <label class="search-box"><span aria-hidden="true">⌕</span><span class="sr-only">Search strategies</span><input id="searchInput" type="search" placeholder="Search a classroom problem or strategy…" /></label>
+        <button class="filter-toggle" id="filterToggle" type="button" aria-expanded="false"><span id="filterLabel">Filters</span> <span id="activeFilterCount">0</span></button>
+      </div>
+      <div class="filter-panel" id="filterPanel" hidden><div id="categoryFilters"></div><button class="text-button" id="clearFilters" type="button">Clear filters</button></div>
+      <div class="strategy-grid" id="strategyGrid"></div>
+      <div class="empty-state" id="emptyState" hidden><span>⌕</span><h3>No exact match yet</h3><p>Try a broader word like “talk”, “writing”, or “scaffold”.</p><button class="secondary-button" id="resetSearch" type="button">Show all strategies</button></div>
+      <button class="secondary-button load-more" id="loadMore" type="button" data-en="Show more strategies" data-zh="显示更多策略">Show more strategies</button>
+    </section>
+
+    <section class="field-guide" id="field-guide">
+      <div class="section-heading"><div><span class="kicker" data-en="Keep growing" data-zh="持续成长">Keep growing</span><h2 data-en="A field guide, not just a list." data-zh="不只是一份清单，更是一份成长指南。">A field guide, not just a list.</h2></div><p data-en="Build confidence one useful idea at a time. These guided pathways are coming next." data-zh="每次掌握一个实用方法，逐步建立信心。更多引导式学习路径即将推出。">Build confidence one useful idea at a time. These guided pathways are coming next.</p></div>
+      <div class="guide-grid">
+        <article><span>01</span><div class="guide-icon">◎</div><h3 data-en="Foundations" data-zh="基础知识">Foundations</h3><p data-en="Understand language development, scaffolding, and asset-based practice in plain language." data-zh="用清晰语言理解语言发展、学习支架和优势取向教学。">Understand language development, scaffolding, and asset-based practice in plain language.</p><span class="coming" data-en="Coming soon" data-zh="即将推出">Coming soon</span></article>
+        <article><span>02</span><div class="guide-icon">↔</div><h3 data-en="Co-Teaching" data-zh="协同教学">Co-Teaching</h3><p data-en="Plan, model, notice, reflect, and try—together with your teaching partner." data-zh="与教学搭档一起计划、示范、观察、反思和尝试。">Plan, model, notice, reflect, and try—together with your teaching partner.</p><span class="coming" data-en="Coming soon" data-zh="即将推出">Coming soon</span></article>
+        <article><span>03</span><div class="guide-icon">Aa</div><h3 data-en="Reading &amp; Writing" data-zh="阅读与写作">Reading & Writing</h3><p data-en="Go deeper into academic language, literacy, genre, and meaningful feedback." data-zh="深入学习学术语言、读写能力、文体和有意义的反馈。">Go deeper into academic language, literacy, genre, and meaningful feedback.</p><span class="coming" data-en="Coming soon" data-zh="即将推出">Coming soon</span></article>
+        <article><span>04</span><div class="guide-icon">↗</div><h3 data-en="Grow as an Educator" data-zh="教师专业成长">Grow as an Educator</h3><p data-en="Find careful research summaries, reflection tools, and learning pathways." data-zh="寻找严谨的研究摘要、反思工具和专业学习路径。">Find careful research summaries, reflection tools, and learning pathways.</p><span class="coming" data-en="Coming soon" data-zh="即将推出">Coming soon</span></article>
+      </div>
+    </section>
+
+    <section class="about" id="about"><p data-en="Built from nearly 20 years of classroom learning." data-zh="凝聚近二十年的课堂学习与实践。">Built from nearly 20 years of classroom learning.</p><h2 data-en="The resource we wish someone had handed us on day one." data-zh="这是我们希望入行第一天就有人交到手中的资源。">The resource we wish someone had handed us on day one.</h2><p data-en="Lingua Strategies turns a scattered field into practical next steps—without lowering expectations, overlooking home languages, or pretending one approach fits every learner." data-zh="Lingua Strategies 将分散的专业知识转化为清晰可行的下一步——不降低期望，不忽视家庭语言，也不假设一种方法适合所有学生。">Lingua Strategies turns a scattered field into practical next steps—without lowering expectations, overlooking home languages, or pretending one approach fits every learner.</p></section>
+  </main>
+
+  <footer><a class="brand" href="#home"><span class="brand-mark"><img src="assets/lingua-logo.png" alt="" width="40" height="40" /></span><span>Lingua Strategies</span></a><p data-en="Practical support for multilingual classrooms." data-zh="为多语言课堂提供实用支持。">Practical support for multilingual classrooms.</p><span data-en="Made for teachers, with care." data-zh="为教师用心制作。">Made for teachers, with care.</span></footer>
+
+  <dialog id="strategyDialog" aria-labelledby="dialogTitle"><div id="dialogContent"></div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="zh.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
