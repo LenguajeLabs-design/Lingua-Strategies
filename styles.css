@@ -146,3 +146,73 @@ html[lang="zh-CN"] .evidence-methods h3{font-family:'PingFang SC','Microsoft YaH
 
 @media(max-width:900px){.evidence-methods{grid-template-columns:1fr}.evidence-methods article{min-height:165px}.evidence-methods h3{margin-top:22px}}
 @media(max-width:600px){.evidence-section{padding:68px 18px}.source-list{grid-template-columns:1fr}.source-list>a{min-height:130px}.research-note{padding:18px 16px}}
+
+/* A single, lightweight icon language keeps actions easier to scan without adding a dependency. */
+.ui-icon{width:20px;height:20px;display:inline-block;flex:0 0 auto;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;vertical-align:middle}
+.button-icon{width:19px;height:19px}
+.primary-button>.button-icon{margin-left:2px}
+.saved-button{display:inline-flex;align-items:center;gap:8px;cursor:pointer}
+.saved-button>.ui-icon{width:17px;height:17px;color:#586681}
+.saved-button #savedLabel{display:inline;min-width:0;height:auto;margin:0;background:none;border-radius:0;font-size:13px}
+.saved-button #savedCount{margin-left:0}
+.route-icon .ui-icon,.guide-icon .ui-icon{width:24px;height:24px;stroke-width:1.7}
+.need-card .icon .ui-icon{width:23px;height:23px;stroke-width:1.75}
+.need-card small>.ui-icon{width:16px;height:16px}
+.search-box>.ui-icon{width:22px;height:22px;color:var(--muted)}
+.filter-toggle{display:inline-flex;align-items:center;justify-content:center;gap:8px}
+.filter-toggle>.ui-icon{width:18px;height:18px;color:#52617c}
+.filter-toggle #filterLabel{display:inline;min-width:0;height:auto;margin:0;background:none;border-radius:0;font-size:13px}
+.filter-toggle #activeFilterCount{margin-left:0}
+.save-icon{display:grid;place-items:center;transition:background .18s ease,color .18s ease}
+.save-icon:hover,.save-icon:focus-visible{background:#f1f2fb}
+.save-icon .ui-icon{width:21px;height:21px}
+.save-icon.saved .ui-icon{fill:currentColor}
+.card-meta>span{display:inline-flex;align-items:center;gap:6px}
+.card-meta .ui-icon{width:15px;height:15px}
+.card-arrow .ui-icon{width:20px;height:20px}
+.empty-state-icon{width:40px;height:40px;color:#8390a8;stroke-width:1.5}
+.source-list small,.research-sources a>strong{display:inline-flex;align-items:center;gap:5px}
+.source-list small .ui-icon,.research-sources a>strong .ui-icon{width:14px;height:14px}
+.research-icon .ui-icon{width:21px;height:21px}
+.dialog-close{display:grid;place-items:center;color:var(--ink)}
+.dialog-close .ui-icon{width:20px;height:20px}
+.dialog-meta span{display:inline-flex;align-items:center;gap:6px}
+.dialog-meta .ui-icon{width:14px;height:14px}
+.light-button .ui-icon{width:17px;height:17px}
+
+@media(max-width:600px){
+  .saved-button{display:none}
+  .filter-toggle:before{content:none}
+  .filter-toggle>.ui-icon{width:20px;height:20px}
+  .need-card small>.ui-icon{width:18px;height:18px}
+}
+@media(max-width:700px){.saved-button{display:none}}
+
+/* The footer closes the field guide with one clear path into Federico's wider work. */
+.site-footer{display:block;padding:0;background:#050d1d;color:#fff;border-top:0;font-size:14px}
+.footer-main,.footer-bottom{width:min(100%,1180px);margin:0 auto;padding-left:24px;padding-right:24px}
+.footer-main{display:grid;grid-template-columns:minmax(260px,.8fr) minmax(520px,1.4fr);gap:clamp(56px,8vw,120px);padding-top:76px;padding-bottom:72px}
+.footer-intro .brand{width:max-content;color:#fff;font-size:17px}
+.footer-intro p{max-width:360px;margin:28px 0 0;color:#aebbd0;font-size:15px;line-height:1.7}
+.footer-label{margin:0 0 20px;color:#7fe0ec;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+.footer-link-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-top:1px solid rgba(188,207,238,.2);border-left:1px solid rgba(188,207,238,.2)}
+.footer-link-grid a{min-height:112px;padding:22px 20px;display:flex;align-items:flex-start;justify-content:space-between;gap:18px;border-right:1px solid rgba(188,207,238,.2);border-bottom:1px solid rgba(188,207,238,.2);color:#fff;text-decoration:none;transition:background .18s ease,color .18s ease}
+.footer-link-grid a:hover,.footer-link-grid a:focus-visible{background:rgba(103,132,255,.12);color:#83e3ef}
+.footer-link-grid a>span{display:flex;min-width:0;flex-direction:column;gap:8px}
+.footer-link-grid strong{font-size:14px;font-weight:600;line-height:1.35}
+.footer-link-grid small{color:#8f9db3;font-size:11px;line-height:1.35;overflow-wrap:anywhere}
+.footer-link-grid .ui-icon{width:18px;height:18px;flex:0 0 18px;color:#7888a4;transition:transform .18s ease,color .18s ease}
+.footer-link-grid a:hover .ui-icon,.footer-link-grid a:focus-visible .ui-icon{transform:translate(2px,-2px);color:#83e3ef}
+.footer-bottom{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px;border-top:1px solid rgba(188,207,238,.2);color:#8290a7;font-size:11px}
+
+@media(max-width:800px){
+  .footer-main{grid-template-columns:1fr;gap:48px;padding-top:62px;padding-bottom:54px}
+}
+@media(max-width:600px){
+  .footer-main,.footer-bottom{padding-left:18px;padding-right:18px}
+  .footer-main{gap:42px;padding-top:50px;padding-bottom:42px}
+  .footer-intro p{margin-top:22px}
+  .footer-link-grid{grid-template-columns:1fr}
+  .footer-link-grid a{min-height:88px;padding:19px 17px}
+  .footer-bottom{min-height:92px;align-items:flex-start;justify-content:center;flex-direction:column;gap:7px;padding-top:22px;padding-bottom:22px}
+}
