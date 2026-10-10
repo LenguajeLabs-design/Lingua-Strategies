@@ -19,7 +19,7 @@ window.esNeeds=[
 ];
 
 window.esStatic={
-  'Start here':'Empieza aquí','All strategies':'Todas las estrategias','Evidence':'Evidencia','About':'Acerca de',
+  'Start here':'Empieza aquí','All strategies':'Todas las estrategias','Evidence':'Evidencia','About':'Acerca de','Contact':'Contacto',
   'The multilingual teaching field guide':'La guía práctica para la enseñanza multilingüe',
   'Know what to do<br><em>tomorrow.</em>':'Ten claro qué hacer<br><em>mañana.</em>',
   'Practical, research-informed guidance for teachers of multilingual learners. Start with the classroom moment in front of you.':'Orientación práctica e informada por la investigación para docentes de estudiantes multilingües. Empieza por la situación que tienes hoy en el aula.',
@@ -43,7 +43,7 @@ window.esStatic={
   'Reading & Writing':'Lectura y escritura','Go deeper into academic language, literacy, genre, and meaningful feedback.':'Profundiza en el lenguaje académico, la alfabetización, los géneros y la retroalimentación significativa.',
   'Grow as an Educator':'Crece como educador','Find careful research summaries, reflection tools, and learning pathways.':'Encuentra resúmenes rigurosos de investigación, herramientas de reflexión y rutas de aprendizaje.',
   'Built from nearly 20 years of classroom learning.':'Creado a partir de casi 20 años de aprendizaje en el aula.','The resource we wish someone had handed us on day one.':'El recurso que nos habría gustado recibir el primer día.','Lingua Strategies turns a scattered field into practical next steps—without lowering expectations, overlooking home languages, or pretending one approach fits every learner.':'Lingua Strategies convierte un campo disperso en próximos pasos prácticos, sin reducir las expectativas, ignorar las lenguas del hogar ni fingir que un solo enfoque sirve para todo el alumnado.',
-  'Practical support for multilingual classrooms.':'Apoyo práctico para aulas multilingües.','Practical, research-informed support for multilingual classrooms.':'Apoyo práctico e informado por la investigación para aulas multilingües.','More from Lenguaje Labs':'Más de Lenguaje Labs','Made for teachers, with care.':'Creado con cuidado para docentes.'
+  'Practical support for multilingual classrooms.':'Apoyo práctico para aulas multilingües.','Practical, research-informed support for multilingual classrooms.':'Apoyo práctico e informado por la investigación para aulas multilingües.','Contact Lenguaje Labs':'Contactar con Lenguaje Labs','More from Lenguaje Labs':'Más de Lenguaje Labs','Made for teachers, with care.':'Creado con cuidado para docentes.'
 };
 
 window.esContent={
