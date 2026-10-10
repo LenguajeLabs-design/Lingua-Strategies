@@ -1,0 +1,243 @@
+{
+  "sources": {
+    "ies-2014": {
+      "short": "Baker et al., 2014",
+      "displayTitle": "IES / What Works Clearinghouse",
+      "title": "Teaching Academic Content and Literacy to English Learners in Elementary and Middle School",
+      "description": "Academic vocabulary, content-area language, literacy, and writing",
+      "descriptionZh": "学术词汇、学科语言、读写能力与写作",
+      "citation": "Baker, S., Lesaux, N., Jayanthi, M., Dimino, J., Proctor, C. P., Morris, J., Gersten, R., Haymond, K., Kieffer, M. J., Linan-Thompson, S., & Newman-Gonchar, R. (2014). Teaching academic content and literacy to English learners in elementary and middle school (NCEE 2014-4012). Institute of Education Sciences, U.S. Department of Education.",
+      "url": "https://ies.ed.gov/ncee/WWC/PracticeGuide/19/Published"
+    },
+    "nasem-2017": {
+      "short": "National Academies, 2017",
+      "displayTitle": "National Academies",
+      "title": "Promoting the Educational Success of Children and Youth Learning English: Promising Futures",
+      "description": "A consensus synthesis on children and youth learning English",
+      "descriptionZh": "关于英语学习儿童与青少年的共识研究报告",
+      "citation": "National Academies of Sciences, Engineering, and Medicine. (2017). Promoting the educational success of children and youth learning English: Promising futures. The National Academies Press.",
+      "url": "https://doi.org/10.17226/24677"
+    },
+    "wida-2020": {
+      "short": "WIDA, 2020",
+      "displayTitle": "WIDA ELD Standards Framework",
+      "title": "WIDA English Language Development Standards Framework, 2020 Edition: Kindergarten–Grade 12",
+      "description": "Content-language integration and asset-based practice",
+      "descriptionZh": "学科与语言融合及优势取向实践",
+      "citation": "WIDA. (2020). WIDA English language development standards framework, 2020 edition: Kindergarten–Grade 12. Board of Regents of the University of Wisconsin System.",
+      "url": "https://wida.wisc.edu/sites/default/files/resource/WIDA-ELD-Standards-Framework-2020.pdf"
+    },
+    "van-de-pol-2010": {
+      "short": "van de Pol et al., 2010",
+      "displayTitle": "Scaffolding research review",
+      "title": "Scaffolding in Teacher–Student Interaction: A Decade of Research",
+      "description": "Contingency, fading, and transfer of responsibility",
+      "descriptionZh": "回应性支持、逐步撤除及责任转移",
+      "citation": "van de Pol, J., Volman, M., & Beishuizen, J. (2010). Scaffolding in teacher–student interaction: A decade of research. Educational Psychology Review, 22, 271–296.",
+      "url": "https://doi.org/10.1007/s10648-010-9127-6"
+    },
+    "keck-2006": {
+      "short": "Keck et al., 2006",
+      "displayTitle": "Interaction meta-analysis",
+      "title": "Investigating the Empirical Link Between Task-Based Interaction and Acquisition: A Meta-Analysis",
+      "description": "Purposeful task-based interaction and language acquisition",
+      "descriptionZh": "有目的的任务型互动与语言习得",
+      "citation": "Keck, C., Iberri-Shea, G., Tracy-Ventura, N., & Wa-Mbaleka, S. (2006). Investigating the empirical link between task-based interaction and acquisition: A meta-analysis. In J. M. Norris & L. Ortega (Eds.), Synthesizing research on language learning and teaching (pp. 91–131). John Benjamins.",
+      "url": "https://doi.org/10.1075/lllt.13.08kec"
+    },
+    "rowe-1986": {
+      "short": "Rowe, 1986",
+      "displayTitle": "Wait-time research review",
+      "title": "Wait Time: Slowing Down May Be a Way of Speeding Up!",
+      "description": "Pauses after questions and student responses",
+      "descriptionZh": "提问后及学生回答后的有意识停顿",
+      "citation": "Rowe, M. B. (1986). Wait time: Slowing down may be a way of speeding up! Journal of Teacher Education, 37(1), 43–50.",
+      "url": "https://doi.org/10.1177/002248718603700110"
+    },
+    "cenoz-gorter-2022": {
+      "short": "Cenoz & Gorter, 2022",
+      "displayTitle": "Pedagogical translanguaging",
+      "title": "Pedagogical Translanguaging",
+      "description": "Planned use of learners’ full linguistic repertoires",
+      "descriptionZh": "有计划地运用学习者的完整语言资源",
+      "citation": "Cenoz, J., & Gorter, D. (2022). Pedagogical translanguaging. Cambridge University Press.",
+      "url": "https://doi.org/10.1017/9781009029384"
+    },
+    "black-wiliam-1998": {
+      "short": "Black & Wiliam, 1998",
+      "displayTitle": "Formative assessment review",
+      "title": "Assessment and Classroom Learning",
+      "description": "Using evidence of learning to adapt teaching",
+      "descriptionZh": "运用学习证据调整后续教学",
+      "citation": "Black, P., & Wiliam, D. (1998). Assessment and classroom learning. Assessment in Education: Principles, Policy & Practice, 5(1), 7–74.",
+      "url": "https://doi.org/10.1080/0969595980050102"
+    },
+    "panadero-2017": {
+      "short": "Panadero et al., 2017",
+      "displayTitle": "Self-assessment meta-analyses",
+      "title": "Effects of Self-Assessment on Self-Regulated Learning and Self-Efficacy: Four Meta-Analyses",
+      "description": "Self-assessment, learning strategies, and self-efficacy",
+      "descriptionZh": "自我评估、学习策略与自我效能感",
+      "citation": "Panadero, E., Jönsson, A., & Botella, J. (2017). Effects of self-assessment on self-regulated learning and self-efficacy: Four meta-analyses. Educational Research Review, 22, 74–98.",
+      "url": "https://doi.org/10.1016/j.edurev.2017.08.004"
+    },
+    "scherer-2024": {
+      "short": "Scherer et al., 2024",
+      "displayTitle": "Writing-feedback meta-analysis",
+      "title": "How Effective Is Feedback for L1, L2, and FL Learners’ Writing? A Meta-Analysis",
+      "description": "Surface, meaning-level, combined, teacher, and peer feedback",
+      "descriptionZh": "表层、意义层面、综合、教师及同伴反馈",
+      "citation": "Scherer, S., Graham, S., & Busse, V. (2024). How effective is feedback for L1, L2, and FL learners’ writing? A meta-analysis. Learning and Instruction, 93, Article 101961.",
+      "url": "https://doi.org/10.1016/j.learninstruc.2024.101961"
+    }
+  },
+  "homepageOrder": [
+    "ies-2014",
+    "nasem-2017",
+    "wida-2020",
+    "van-de-pol-2010",
+    "keck-2006",
+    "rowe-1986",
+    "cenoz-gorter-2022",
+    "black-wiliam-1998",
+    "panadero-2017",
+    "scherer-2024"
+  ],
+  "strategies": {
+    "preview-key-vocabulary-with-visuals": {
+      "level": "Evidence-rated practice guide",
+      "levelZh": "带证据等级的实践指南",
+      "note": "The What Works Clearinghouse gives strong-evidence support to intensive academic vocabulary instruction using varied activities in meaningful text and content contexts.",
+      "noteZh": "美国 What Works Clearinghouse 以“强证据”等级支持在有意义的文本和学科情境中，通过多种活动深入教授学术词汇。",
+      "adaptation": "Previewing a small set of words with carefully chosen visuals is our practical application of that broader recommendation; the guide does not test this exact routine.",
+      "adaptationZh": "用精心选择的视觉材料预教少量词汇，是我们对这一更广泛建议的课堂转化；该指南并未直接检验这一具体常规。",
+      "sourceIds": ["ies-2014"]
+    },
+    "build-background-knowledge-before-reading": {
+      "level": "Research synthesis",
+      "levelZh": "研究综合",
+      "note": "Research syntheses emphasize that multilingual learners are simultaneously developing language and learning demanding grade-level content. Instruction should make content accessible without replacing it with less ambitious work.",
+      "noteZh": "研究综合指出，多语言学习者需要在发展语言的同时学习具有挑战性的年级学科内容。教学应扩大内容的可及性，而不是用要求更低的任务取而代之。",
+      "adaptation": "A short, relevant knowledge-building preview is one way to create access. Its value depends on the text, learners, and what knowledge the task actually requires.",
+      "adaptationZh": "简短且与文本相关的背景知识预备，是建立学习入口的一种方式；其作用取决于文本、学习者以及任务真正需要的知识。",
+      "sourceIds": ["ies-2014", "nasem-2017"]
+    },
+    "pair-a-language-objective-with-the-content-objective": {
+      "level": "Framework connection",
+      "levelZh": "框架关联",
+      "note": "The WIDA ELD Standards Framework explicitly connects language development with academic content learning and supports collaborative planning for that integration.",
+      "noteZh": "WIDA 英语语言发展标准框架明确将语言发展与学科学习相连接，并支持教师通过协作计划实现二者融合。",
+      "adaptation": "The paired-objective planning routine is our usable classroom translation of that framework connection, not a claim that one objective format guarantees learning.",
+      "adaptationZh": "将学科目标与语言目标配对，是我们对这一框架关联的课堂转化，并不意味着某一种目标格式必然带来学习成效。",
+      "sourceIds": ["wida-2020", "ies-2014"]
+    },
+    "pause-for-turn-and-talk-with-sentence-stems": {
+      "level": "Research-supported principle",
+      "levelZh": "研究支持的原则",
+      "note": "Research supports purposeful interaction and frequent opportunities to use language while learning academic content. Preparation and a clear task make the interaction more instructionally meaningful.",
+      "noteZh": "研究支持有目的的互动，以及在学习学科内容时频繁使用语言的机会。适当准备和清晰任务能让互动更具教学意义。",
+      "adaptation": "Turn-and-Talk with an optional stem is a classroom routine built from these principles; the cited research does not evaluate this exact sequence.",
+      "adaptationZh": "带有可选句型支架的同伴交流，是依据这些原则设计的课堂常规；所引研究并未直接评估这一具体流程。",
+      "sourceIds": ["keck-2006", "ies-2014"]
+    },
+    "use-wait-time-intentionally": {
+      "level": "Foundational research review",
+      "levelZh": "基础研究综述",
+      "note": "Wait-time research distinguishes the pause after a teacher question from the pause after a student response and connects deliberate waiting with changes in classroom questioning and response patterns.",
+      "noteZh": "等待时间研究区分了教师提问后的停顿与学生回答后的停顿，并将有意识的等待与课堂提问及回应模式的变化联系起来。",
+      "adaptation": "The suggested timing in this strategy is a practical starting point, not a universal number for every learner or question.",
+      "adaptationZh": "本策略建议的时间只是一个实用起点，并非适用于所有学习者和所有问题的固定数字。",
+      "sourceIds": ["rowe-1986"]
+    },
+    "chunk-long-teacher-directions-into-smaller-steps": {
+      "level": "Research-supported principle",
+      "levelZh": "研究支持的原则",
+      "note": "Scaffolding research describes effective support as responsive to current performance, adjusted over time, and oriented toward transferring responsibility to the learner.",
+      "noteZh": "支架教学研究将有效支持描述为：回应学习者当前表现、随学习进展调整，并以逐步将责任转移给学习者为目标。",
+      "adaptation": "Chunking directions can reduce avoidable language load, but it becomes scaffolding only when the teacher checks learner response and adjusts or fades the support.",
+      "adaptationZh": "分解指令可以减少不必要的语言负担，但只有当教师观察学习者反应并调整或逐步撤除支持时，它才真正构成支架。",
+      "sourceIds": ["van-de-pol-2010"]
+    },
+    "use-oral-rehearsal-before-writing": {
+      "level": "Evidence-rated practice guide",
+      "levelZh": "带证据等级的实践指南",
+      "note": "The What Works Clearinghouse supports integrating oral and written language instruction into content-area teaching and providing learners with repeated opportunities to use academic language.",
+      "noteZh": "美国 What Works Clearinghouse 支持在学科教学中整合口语与书面语教学，并为学习者提供反复使用学术语言的机会。",
+      "adaptation": "Brief oral rehearsal before writing is one way to connect those modes. The cited guide supports the broader instructional principle rather than this exact routine.",
+      "adaptationZh": "写作前进行简短口头演练，是连接口语与书面语的一种方式。所引指南支持的是更广泛的教学原则，而非这一具体常规。",
+      "sourceIds": ["ies-2014", "keck-2006"]
+    },
+    "deconstruct-a-mentor-text": {
+      "level": "Practice-guide connection",
+      "levelZh": "实践指南关联",
+      "note": "Evidence-informed writing guidance recommends explicit attention to how increasingly complex texts are organized and how language choices help writers accomplish a purpose.",
+      "noteZh": "研究知情的写作指导建议明确关注复杂文本的组织方式，以及语言选择如何帮助作者实现写作目的。",
+      "adaptation": "Collaboratively noticing a mentor text is our classroom application. The evidence rating for the guide’s broader writing recommendation is more limited than for its vocabulary recommendations.",
+      "adaptationZh": "共同分析范文是我们的课堂实践转化。该指南对广泛写作建议的证据等级，低于其词汇教学建议的证据等级。",
+      "sourceIds": ["ies-2014"]
+    },
+    "build-a-shared-word-bank": {
+      "level": "Evidence-rated practice guide",
+      "levelZh": "带证据等级的实践指南",
+      "note": "The What Works Clearinghouse gives strong-evidence support to sustained academic vocabulary instruction that moves beyond a one-time definition and gives learners multiple opportunities to use words.",
+      "noteZh": "美国 What Works Clearinghouse 以“强证据”等级支持持续的学术词汇教学：教学不应止于一次性释义，而应让学习者多次使用词汇。",
+      "adaptation": "A shared, purpose-organized word bank is one practical way to keep high-value language available for repeated use.",
+      "adaptationZh": "按表达目的组织、由全班共享的词汇库，是让高价值语言可见并得到反复使用的一种实践方式。",
+      "sourceIds": ["ies-2014"]
+    },
+    "gradually-remove-scaffolds": {
+      "level": "Research review",
+      "levelZh": "研究综述",
+      "note": "A major review identifies contingency, fading, and transfer of responsibility as three defining characteristics of scaffolding while also noting limits in the effectiveness evidence for specific techniques.",
+      "noteZh": "一项重要综述将回应性、逐步撤除和责任转移确定为支架教学的三个核心特征，同时也指出针对具体方法的效果证据仍有限。",
+      "adaptation": "The gradual-release sequence here translates those characteristics into a planning routine. Readiness should be judged from learner performance rather than a fixed timetable.",
+      "adaptationZh": "这里的渐进撤除流程将这些特征转化为计划工具。是否撤除支持应依据学习者表现，而不是固定时间表。",
+      "sourceIds": ["van-de-pol-2010"]
+    },
+    "check-understanding-with-quick-response-routines": {
+      "level": "Research review",
+      "levelZh": "研究综述",
+      "note": "Formative-assessment research supports gathering evidence of learning and using it to adapt subsequent teaching. The value comes from the instructional response, not from collecting an answer alone.",
+      "noteZh": "形成性评估研究支持收集学习证据，并用这些证据调整后续教学。其价值来自教师根据证据采取的教学行动，而不只是收集答案。",
+      "adaptation": "A simultaneous quick-response routine is one way to gather broader evidence than a volunteer answer. The review is general classroom research and does not test this exact multilingual-learner routine.",
+      "adaptationZh": "全班同时回应的快速常规，比只听一名志愿者回答更能收集广泛证据。这项综述属于一般课堂研究，并未直接检验这一面向多语言学习者的具体常规。",
+      "sourceIds": ["black-wiliam-1998"]
+    },
+    "highlight-cognates-and-cross-language-word-connections": {
+      "level": "Research-informed framework",
+      "levelZh": "研究知情的框架",
+      "note": "Pedagogical translanguaging deliberately activates knowledge across learners’ linguistic repertoires. Cenoz and Gorter include cross-language comparison and cognate work among possible classroom applications.",
+      "noteZh": "教学性跨语实践有意识地激活学习者完整语言资源中的已有知识。Cenoz 与 Gorter 将跨语言比较及同源词学习列为可能的课堂应用。",
+      "adaptation": "The comparison routine here is a context-sensitive application of that framework, not evidence that every cognate activity produces the same result.",
+      "adaptationZh": "这里的比较常规是对该框架的情境化应用，并不意味着所有同源词活动都会产生相同结果。",
+      "sourceIds": ["cenoz-gorter-2022"]
+    },
+    "invite-and-value-multilingual-contributions": {
+      "level": "Research-informed framework",
+      "levelZh": "研究知情的框架",
+      "note": "Pedagogical translanguaging is a learner-centred approach that plans for students to use resources from their whole linguistic repertoires in language and content learning.",
+      "noteZh": "教学性跨语实践是一种以学习者为中心的方法，它有计划地让学生在语言与学科学习中运用完整的语言资源。",
+      "adaptation": "Inviting multilingual contributions is useful only when those contributions have a genuine intellectual role and when language choices remain sensitive to students and context.",
+      "adaptationZh": "只有当多语言贡献在学习中发挥真实的思维作用，并且语言选择尊重学生及具体情境时，这一做法才有意义。",
+      "sourceIds": ["cenoz-gorter-2022"]
+    },
+    "teach-students-to-self-assess-with-a-rubric": {
+      "level": "Meta-analysis",
+      "levelZh": "元分析",
+      "note": "Four meta-analyses found that self-assessment interventions can support self-regulated learning and self-efficacy, with outcomes varying by the components and measures used.",
+      "noteZh": "四项元分析表明，自我评估干预可以支持自主调节学习和自我效能感，但结果会因干预组成及测量方式而异。",
+      "adaptation": "Using one rubric criterion, requiring evidence, and choosing a next step is our practical version of an evidence-focused self-assessment process; the meta-analysis does not test this exact routine.",
+      "adaptationZh": "聚焦一项量规标准、寻找作品证据并选择下一步，是我们对基于证据的自我评估过程的课堂转化；元分析并未直接检验这一具体常规。",
+      "sourceIds": ["panadero-2017"]
+    },
+    "give-feedback-on-meaning-before-grammar": {
+      "level": "Meta-analysis",
+      "levelZh": "元分析",
+      "note": "A 2024 meta-analysis distinguishes feedback on surface features from feedback on deeper writing qualities. Combined feedback improved both types of outcomes overall, although results varied by learner group and feedback type.",
+      "noteZh": "一项 2024 年元分析区分了表层语言特征反馈与深层写作品质反馈。总体而言，综合反馈改善了两类结果，但效果会因学习者群体和反馈类型而异。",
+      "adaptation": "Prioritizing meaning before grammar is a classroom sequencing choice. The review supports attending to deep as well as surface outcomes, but it does not establish this exact order or cover elementary learners.",
+      "adaptationZh": "先关注意义、再处理语法是一种课堂反馈顺序选择。该综述支持同时关注深层与表层结果，但并未确立这一具体顺序，也未涵盖小学阶段学习者。",
+      "sourceIds": ["scherer-2024"]
+    }
+  }
+}

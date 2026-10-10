@@ -33,8 +33,8 @@ Then open `http://127.0.0.1:4173/`.
 - A problem-first home page for busy and first-time EAL teachers
 - Search and category filtering across all 52 seed strategies
 - Expanded Quick Version and Go Deeper content for all 52 strategies
-- Complete English and Simplified Chinese experiences for all 52 strategies
-- Persistent `EN | 中文` language switch for Chinese Teaching Assistants
+- English, Spanish, and Simplified Chinese experiences across all 52 strategies
+- Persistent `EN | ES | 中文` language switch
 - A concrete Try this tomorrow action on every strategy
 - Local-only saved strategies (no account or backend)
 - Responsive mobile and desktop layouts

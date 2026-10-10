@@ -5,15 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Practical, research-informed guidance for teachers of multilingual learners." />
   <title>Lingua Strategies — Know what to try tomorrow</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=9" />
 </head>
 <body>
   <header class="site-header">
     <a class="brand" href="#home" aria-label="Lingua Strategies home"><span class="brand-mark"><img src="assets/lingua-logo.png" alt="" width="40" height="40" /></span><span>Lingua Strategies</span></a>
     <nav aria-label="Main navigation">
-      <a href="#strategies" data-en="Strategies" data-zh="教学策略">Strategies</a><a href="#field-guide" data-en="Field guide" data-zh="成长指南">Field guide</a><a href="#about" data-en="About" data-zh="关于">About</a>
+      <a href="#start" data-en="Start here" data-zh="从这里开始">Start here</a><a href="#strategies" id="libraryNav" data-en="All strategies" data-zh="全部策略">All strategies</a><a href="#evidence" data-en="Evidence" data-zh="研究依据">Evidence</a><a href="#about" data-en="About" data-zh="关于">About</a>
     </nav>
-    <div class="header-actions"><div class="language-switch" role="group" aria-label="Language"><button type="button" data-locale="en" class="active">EN</button><button type="button" data-locale="zh">中文</button></div><button class="saved-button" id="savedButton" type="button" aria-label="Show saved strategies"><span id="savedLabel">Saved</span> <span id="savedCount">0</span></button></div>
+    <div class="header-actions"><div class="language-switch" role="group" aria-label="Language"><button type="button" data-locale="en" class="active" aria-pressed="true">EN</button><button type="button" data-locale="es" aria-pressed="false">ES</button><button type="button" data-locale="zh" aria-pressed="false">中文</button></div><button class="saved-button" id="savedButton" type="button" aria-label="Show saved strategies"><span id="savedLabel">Saved</span> <span id="savedCount">0</span></button></div>
   </header>
 
   <main>
@@ -22,29 +22,54 @@
         <div class="eyebrow" data-en="The multilingual teaching field guide" data-zh="多语言学习者教学指南">The multilingual teaching field guide</div>
         <h1 data-en="Know what to do&lt;br&gt;&lt;em&gt;tomorrow.&lt;/em&gt;" data-zh="明天的课堂，&lt;br&gt;&lt;em&gt;从容有方法。&lt;/em&gt;">Know what to do<br><em>tomorrow.</em></h1>
         <p data-en="Practical, research-informed guidance for teachers of multilingual learners. Start with the classroom moment in front of you." data-zh="为多语言学习者教师提供实用、基于研究的教学建议。从眼前真实的课堂情境出发。">Practical, research-informed guidance for teachers of multilingual learners. Start with the classroom moment in front of you.</p>
-        <a class="primary-button" href="#needs"><span data-en="Find what to try tomorrow" data-zh="找到明天就能尝试的方法">Find what to try tomorrow</span> <span aria-hidden="true">↓</span></a>
-        <div class="trust-line"><span data-en="52 practical moves" data-zh="52 个实用策略">52 practical moves</span><span data-en="Built for busy teachers" data-zh="为忙碌的教师设计">Built for busy teachers</span><span data-en="No sign-up needed" data-zh="无需注册">No sign-up needed</span></div>
+        <a class="primary-button" href="#start"><span data-en="Choose where to start" data-zh="选择你的起点">Choose where to start</span> <span aria-hidden="true">↓</span></a>
+        <div class="trust-line"><span data-en="52 practical moves" data-zh="52 个实用策略">52 practical moves</span><span data-en="Evidence traced to its source" data-zh="每项依据均可追溯来源">Evidence traced to its source</span><span data-en="No sign-up needed" data-zh="无需注册">No sign-up needed</span></div>
       </div>
       <div class="hero-credit" aria-hidden="true">Start here. This will help.</div>
     </section>
 
-    <section class="needs-section" id="needs">
-      <div class="section-heading">
-        <div><span class="kicker" data-en="Start with the moment" data-zh="从真实情境开始">Start with the moment</span><h2 data-en="What are you trying to do?" data-zh="你现在想解决什么问题？">What are you trying to do?</h2></div>
-        <p data-en="Choose the classroom challenge that feels most urgent. We’ll show you a small move you can make next." data-zh="选择眼下最需要解决的课堂问题，我们会推荐一个可以马上采取的小行动。">Choose the classroom challenge that feels most urgent. We’ll show you a small move you can make next.</p>
+    <section class="evidence-section" id="evidence">
+      <div class="section-heading evidence-heading">
+        <div><span class="kicker" data-en="Evidence behind the practice" data-zh="实践背后的研究依据">Evidence behind the practice</span><h2 data-en="Not just an idea.&lt;br&gt;A careful translation of evidence." data-zh="不只是一个想法。&lt;br&gt;而是对研究证据的审慎转化。">Not just an idea.<br>A careful translation of evidence.</h2></div>
+        <p data-en="Lingua Strategies connects published research and established multilingual-learning frameworks with practical moves teachers can use tomorrow. We show what a source supports—and where the classroom adaptation is ours." data-zh="Lingua Strategies 将已发表研究和成熟的多语言学习框架，转化为教师明天就能使用的课堂行动。我们会说明来源支持什么，也会明确哪些内容是我们的课堂实践转化。">Lingua Strategies connects published research and established multilingual-learning frameworks with practical moves teachers can use tomorrow. We show what a source supports—and where the classroom adaptation is ours.</p>
       </div>
-      <div class="needs-grid" id="needsGrid"></div>
+      <div class="evidence-methods" aria-label="How evidence is described">
+        <article><span class="evidence-number">01</span><h3 data-en="Evidence synthesis" data-zh="研究综合">Evidence synthesis</h3><p data-en="Systematic reviews, meta-analyses, consensus reports, and evidence-rated practice guides." data-zh="系统综述、元分析、共识报告及带有证据等级的实践指南。">Systematic reviews, meta-analyses, consensus reports, and evidence-rated practice guides.</p></article>
+        <article><span class="evidence-number">02</span><h3 data-en="Framework connection" data-zh="框架关联">Framework connection</h3><p data-en="Established professional frameworks are credited as guidance—not presented as causal research." data-zh="成熟的专业框架会作为指导来源予以标注，而不会被表述为因果研究。">Established professional frameworks are credited as guidance—not presented as causal research.</p></article>
+        <article><span class="evidence-number">03</span><h3 data-en="Classroom adaptation" data-zh="课堂实践转化">Classroom adaptation</h3><p data-en="We name when a routine is our practical application of a broader principle rather than a directly tested intervention." data-zh="如果某个教学常规是对更广泛原则的实践应用，而非经过直接检验的干预，我们会明确说明。">We name when a routine is our practical application of a broader principle rather than a directly tested intervention.</p></article>
+      </div>
+      <details class="evidence-disclosure">
+        <summary><span data-en="See the research library" data-zh="查看研究资料库">See the research library</span><span aria-hidden="true">＋</span></summary>
+        <div class="source-list" id="sourceList"></div>
+        <p class="evidence-note" data-en="Evidence notes are added only after a strategy and its sources have been reviewed. Lingua Strategies is independent and is not affiliated with or endorsed by WIDA or the organizations cited here." data-zh="只有在相关策略及其来源经过审核后，我们才会添加研究说明。Lingua Strategies 为独立教育资源，与 WIDA 及此处引用的机构不存在隶属或背书关系。">Evidence notes are added only after a strategy and its sources have been reviewed. Lingua Strategies is independent and is not affiliated with or endorsed by WIDA or the organizations cited here.</p>
+      </details>
     </section>
 
-    <section class="tomorrow-banner" aria-label="New teacher starting point">
-      <div><span class="kicker" data-en="New to EAL?" data-zh="刚开始从事 EAL 教学？">New to EAL?</span><h2 data-en="You don’t need to know everything today." data-zh="你不需要今天就掌握一切。">You don’t need to know everything today.</h2><p data-en="Begin with three high-impact routines you can use in almost any lesson." data-zh="先从三个几乎适用于任何课堂的高效常规开始。">Begin with three high-impact routines you can use in almost any lesson.</p></div>
-      <button class="light-button" id="starterButton" type="button"><span data-en="Show me where to start" data-zh="告诉我从哪里开始">Show me where to start</span> <span>→</span></button>
+    <section class="start-section" id="start">
+      <div class="section-heading">
+        <div><span class="kicker" data-en="One clear first step" data-zh="先迈出清晰的一步">One clear first step</span><h2 data-en="Start where you are." data-zh="从你现在的位置开始。">Start where you are.</h2></div>
+        <p data-en="You do not need to explore everything. Choose the route that fits your day, and we’ll narrow the field for you." data-zh="你不需要一次浏览全部内容。选择最符合你今天需求的入口，我们会帮你缩小范围。">You do not need to explore everything. Choose the route that fits your day, and we’ll narrow the field for you.</p>
+      </div>
+      <div class="route-grid">
+        <button class="route-card route-card-primary" type="button" data-route="challenge" aria-controls="challengePanel" aria-expanded="false"><span class="route-number">01</span><span class="route-icon">◎</span><strong data-en="I have a classroom challenge" data-zh="我有一个课堂难题">I have a classroom challenge</strong><span data-en="Tell us what is happening. See a short, relevant set of strategies." data-zh="告诉我们正在发生什么，查看精简且相关的策略。">Tell us what is happening. See a short, relevant set of strategies.</span><span class="route-action" data-en="Choose a challenge →" data-zh="选择一个难题 →">Choose a challenge →</span></button>
+        <button class="route-card" type="button" data-route="starter" aria-controls="starterPanel" aria-expanded="false"><span class="route-number">02</span><span class="route-icon">↗</span><strong data-en="I’m new to EAL teaching" data-zh="我是 EAL 教学新手">I’m new to EAL teaching</strong><span data-en="Begin with three routines that work across almost any lesson." data-zh="从三个几乎适用于任何课堂的常规开始。">Begin with three routines that work across almost any lesson.</span><span class="route-action" data-en="Show me the essentials →" data-zh="查看入门必备 →">Show me the essentials →</span></button>
+        <button class="route-card" type="button" data-route="library" aria-controls="strategies" aria-expanded="false"><span class="route-number">03</span><span class="route-icon">⌕</span><strong data-en="I know what I need" data-zh="我知道自己需要什么">I know what I need</strong><span data-en="Search or filter the complete collection of 52 practical moves." data-zh="搜索或筛选全部 52 个实用策略。">Search or filter the complete collection of 52 practical moves.</span><span class="route-action" data-en="Open the full library →" data-zh="打开完整策略库 →">Open the full library →</span></button>
+      </div>
+      <div class="route-panel" id="challengePanel" hidden tabindex="-1">
+        <div class="route-panel-heading"><div><span class="kicker" data-en="Your classroom moment" data-zh="你的课堂情境">Your classroom moment</span><h3 data-en="What would make tomorrow easier?" data-zh="什么能让明天的课堂更顺利？">What would make tomorrow easier?</h3></div><p data-en="Choose one. You can always come back and change it." data-zh="先选择一个，你随时可以回来更改。">Choose one. You can always come back and change it.</p></div>
+        <div class="needs-grid" id="needsGrid"></div>
+      </div>
+      <div class="route-panel starter-panel" id="starterPanel" hidden tabindex="-1">
+        <span class="kicker" data-en="A calm place to begin" data-zh="一个从容的起点">A calm place to begin</span><h3 data-en="Three routines for your next lesson" data-zh="下一节课可以使用的三个常规">Three routines for your next lesson</h3><p data-en="These cover planning, clear directions, and student talk—the foundations you can reuse every day." data-zh="它们涵盖计划、清晰指令和学生对话，是每天都能重复使用的基础。">These cover planning, clear directions, and student talk—the foundations you can reuse every day.</p>
+        <button class="primary-button" id="starterButton" type="button"><span data-en="See my three starting strategies" data-zh="查看我的三个入门策略">See my three starting strategies</span> <span>→</span></button>
+      </div>
     </section>
 
-    <section class="library-section" id="strategies">
+    <section class="library-section" id="strategies" hidden>
+      <a class="back-link" id="backToStart" href="#start" data-en="← Change my starting point" data-zh="← 更改我的起点">← Change my starting point</a>
       <div class="section-heading library-heading">
-        <div><span class="kicker" data-en="Practical toolbox" data-zh="实用工具箱">Practical toolbox</span><h2 data-en="Strategy library" data-zh="教学策略库">Strategy library</h2></div>
-        <p id="resultSummary">Explore all 52 classroom-tested moves.</p>
+        <div><span class="kicker" id="libraryKicker">Practical toolbox</span><h2 id="libraryTitle">Strategy library</h2></div>
+        <p id="resultSummary" role="status" aria-live="polite">Explore all 52 classroom-ready moves.</p>
       </div>
       <div class="search-row">
         <label class="search-box"><span aria-hidden="true">⌕</span><span class="sr-only">Search strategies</span><input id="searchInput" type="search" placeholder="Search a classroom problem or strategy…" /></label>
@@ -58,12 +83,12 @@
 
     <section class="field-guide" id="field-guide">
       <div class="section-heading"><div><span class="kicker" data-en="Keep growing" data-zh="持续成长">Keep growing</span><h2 data-en="A field guide, not just a list." data-zh="不只是一份清单，更是一份成长指南。">A field guide, not just a list.</h2></div><p data-en="Build confidence one useful idea at a time. These guided pathways are coming next." data-zh="每次掌握一个实用方法，逐步建立信心。更多引导式学习路径即将推出。">Build confidence one useful idea at a time. These guided pathways are coming next.</p></div>
-      <div class="guide-grid">
+      <details class="guide-disclosure"><summary><span data-en="Preview the four learning pathways" data-zh="预览四条学习路径">Preview the four learning pathways</span><span aria-hidden="true">＋</span></summary><div class="guide-grid">
         <article><span>01</span><div class="guide-icon">◎</div><h3 data-en="Foundations" data-zh="基础知识">Foundations</h3><p data-en="Understand language development, scaffolding, and asset-based practice in plain language." data-zh="用清晰语言理解语言发展、学习支架和优势取向教学。">Understand language development, scaffolding, and asset-based practice in plain language.</p><span class="coming" data-en="Coming soon" data-zh="即将推出">Coming soon</span></article>
         <article><span>02</span><div class="guide-icon">↔</div><h3 data-en="Co-Teaching" data-zh="协同教学">Co-Teaching</h3><p data-en="Plan, model, notice, reflect, and try—together with your teaching partner." data-zh="与教学搭档一起计划、示范、观察、反思和尝试。">Plan, model, notice, reflect, and try—together with your teaching partner.</p><span class="coming" data-en="Coming soon" data-zh="即将推出">Coming soon</span></article>
         <article><span>03</span><div class="guide-icon">Aa</div><h3 data-en="Reading &amp; Writing" data-zh="阅读与写作">Reading & Writing</h3><p data-en="Go deeper into academic language, literacy, genre, and meaningful feedback." data-zh="深入学习学术语言、读写能力、文体和有意义的反馈。">Go deeper into academic language, literacy, genre, and meaningful feedback.</p><span class="coming" data-en="Coming soon" data-zh="即将推出">Coming soon</span></article>
         <article><span>04</span><div class="guide-icon">↗</div><h3 data-en="Grow as an Educator" data-zh="教师专业成长">Grow as an Educator</h3><p data-en="Find careful research summaries, reflection tools, and learning pathways." data-zh="寻找严谨的研究摘要、反思工具和专业学习路径。">Find careful research summaries, reflection tools, and learning pathways.</p><span class="coming" data-en="Coming soon" data-zh="即将推出">Coming soon</span></article>
-      </div>
+      </div></details>
     </section>
 
     <section class="about" id="about"><p data-en="Built from nearly 20 years of classroom learning." data-zh="凝聚近二十年的课堂学习与实践。">Built from nearly 20 years of classroom learning.</p><h2 data-en="The resource we wish someone had handed us on day one." data-zh="这是我们希望入行第一天就有人交到手中的资源。">The resource we wish someone had handed us on day one.</h2><p data-en="Lingua Strategies turns a scattered field into practical next steps—without lowering expectations, overlooking home languages, or pretending one approach fits every learner." data-zh="Lingua Strategies 将分散的专业知识转化为清晰可行的下一步——不降低期望，不忽视家庭语言，也不假设一种方法适合所有学生。">Lingua Strategies turns a scattered field into practical next steps—without lowering expectations, overlooking home languages, or pretending one approach fits every learner.</p></section>
@@ -73,7 +98,8 @@
 
   <dialog id="strategyDialog" aria-labelledby="dialogTitle"><div id="dialogContent"></div></dialog>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script src="zh.js"></script>
-  <script src="app.js"></script>
+  <script src="zh.js?v=2"></script>
+  <script src="es.js?v=1"></script>
+  <script src="app.js?v=10"></script>
 </body>
 </html>
